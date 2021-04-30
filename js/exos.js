@@ -4,6 +4,7 @@
 * Pour ce challenge, suit les instructions dans le fichier README.md
 * Et écris ton code ici même !
 */
+let answerCount = 0;
 
 /* Exo 1 */
 // Ton code ici...
@@ -17,10 +18,11 @@ var solution1 = "la mer noire";
 const firstPromptResult = window.prompt(question1);
 const reponse1 = firstPromptResult;
 if (solution1 === reponse1) {
-    alert("your first answer is right !!");
+    answerCount++;
+    alert(`Your first answer is right !!`);
 }
 else {
-    alert("your first answer is wrong.");
+    alert("Your first answer is wrong.");
 }
 
 /* Exo 3 */
@@ -32,9 +34,10 @@ const secondPromptResult = Number(window.prompt(question2));
 const reponse2 = secondPromptResult;
 
 if (secondPromptResult === solution2) {
-    alert("your second answer is right !!");
+    answerCount++;
+    alert(`Your second answer is right !! You have ${answerCount} right answer(s).`);
 } else {
-    alert("your second answer is wrong.")
+    alert("Your second answer is wrong.")
 }
 
 // bonus
