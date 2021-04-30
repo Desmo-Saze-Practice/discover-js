@@ -36,3 +36,8 @@ if (secondPromptResult === solution2) {
 } else {
     alert("your second answer is wrong.")
 }
+
+// bonus
+
+
+
